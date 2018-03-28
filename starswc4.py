@@ -33,7 +33,7 @@ def plot2(x,y):
 	plt.ylabel('Opacity')
 	plt.show()
 def main():
-	x = np.arange(5500,6500,0.01) 
+	x = np.arange(5500,6500,0.01) #blabla
 	y = (1/np.pi) * ((0.5*gamma)/((x-6000)**2 + (0.5*gamma)**2))
 	a = trapz(y,x)
 	C= np.array([0.01,0.1,1,10,100,1000,10000,100000])
